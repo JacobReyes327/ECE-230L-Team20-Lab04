@@ -15,7 +15,7 @@ using an implemented design on your Basys3 boards.
 
 ## Lab Summary
 
-
+We demonstrated how the direct sum of products leads to the same result as the sum of products and products of sum when constructing a k-map. We started by creating a sum of products directly from the truth table from all the results that lead to one. Then we created a K-map to create a more optimized sum of products and products of sums. Then, we ran a simulation that showed the output from all 3 strategies is the same. We also generated schematics and truth tables from the code. Finally, we demonstrated this work on the Basys board.
 
 ## Lab Questions
 
