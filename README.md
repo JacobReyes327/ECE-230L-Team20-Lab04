@@ -29,4 +29,4 @@ These are the names because when doing a sum of products, you take the sum of an
 As for products of sums, you take the products of any row that produces a 0, with reversed inputs, and sum them together. After doing this for all rows you again have a bumch of boolean equations that you can now take the addition of to get the behavior desired of the truth table.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+If the two leds do not match, that means the output of the XOR is 1, which is not equal to 0, which is what it tests for, and if that is the case, it will display a message signifiying which module associated with the led is incorrect (either minterm or maxterm).
